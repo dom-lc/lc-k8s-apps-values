@@ -10,10 +10,13 @@ argo-cd:
   global:
     # -- Default domain used by all components
     ## Used for ingresses, certificates, SSO, notifications, etc.
-    domain: argocd.green-prod.com
-  configs:
-    repositories:
-      helm-chart:
-        type: helm
-        url: https://my-public-repo.example.com/helm
+    domain: argocd.surveillance-green.com
+  # configs:
+  #   cm:
+  #   annotations:
+  #     example.com/managed-by: "helm"
+  #   repositories:
+  #     helm-chart:
+  #       type: helm
+  #       url: https://my-public-repo.example.com/helm
   
