@@ -14,4 +14,4 @@ secrets:
 configmap:
   name: app-config
   data:
-    CONFIG_VALUE: "This is a config map value"
+    CONFIG_VALUE: "This is an updated config map value"
