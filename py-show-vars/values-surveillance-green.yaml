@@ -7,7 +7,7 @@ secrets:
   secret:
     name: secret
     data:
-      SECRET_VALUE: "This is a secret"
+      SECRET_VALUE: "This is a secret value"
   externalSecret:
     name: external-secret
 
